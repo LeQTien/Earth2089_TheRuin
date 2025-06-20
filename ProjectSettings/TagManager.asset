@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - PlayerBullet
+  - Enemy
+  - EnergyBall
+  - Explosion
+  - EnemyBullet
+  - Usb
+  - HealPickup
+  - MeleeWeapon
+  - Portal
+  - SpawnPoint
+  - Potion
+  - Chest
+  - LoadingScreen
+  - EnemySpawner
+  - CallBossBarUI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Border
+  - Water
+  - UI
+  - StateUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 2966259789
+    locked: 0
+  - name: GroundDecoration
+    uniqueID: 1210999725
+    locked: 0
+  - name: Border
+    uniqueID: 2772892895
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: RageMode
+    uniqueID: 3745038499
+    locked: 0
+  - name: MeleeWeapon
+    uniqueID: 1644785581
+    locked: 0
+  - name: Player
+    uniqueID: 4026013501
+    locked: 0
+  - name: PlayerBullet
+    uniqueID: 4159064759
+    locked: 0
+  - name: Gun
+    uniqueID: 3226029061
+    locked: 0
+  - name: Enemy
+    uniqueID: 2421624087
+    locked: 0
+  - name: Blood
+    uniqueID: 208354853
+    locked: 0
+  - name: ShootingEffect
+    uniqueID: 2180068347
+    locked: 0
+  - name: MeleeWeaponEffect
+    uniqueID: 1993075247
+    locked: 0
+  - name: EnergyBall
+    uniqueID: 1396930529
+    locked: 0
+  - name: HealPickup
+    uniqueID: 37506259
+    locked: 0
+  - name: Explosion
+    uniqueID: 1666122659
+    locked: 0
+  - name: HPBar
+    uniqueID: 3455487689
+    locked: 0
+  - name: PlayerHPBar
+    uniqueID: 2261841209
+    locked: 0
+  - name: GameUI
+    uniqueID: 3867519933
+    locked: 0
+  m_RenderingLayers:
+  - Default

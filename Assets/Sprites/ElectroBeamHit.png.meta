@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 1984582d79d3aa640ac2d75a37dd215c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1019518067404876877
+    second: ElectroBeamHit_0
+  - first:
+      213: 7627684588191666635
+    second: ElectroBeamHit_1
+  - first:
+      213: 1795537292879316313
+    second: ElectroBeamHit_2
+  - first:
+      213: -8172711141373484594
+    second: ElectroBeamHit_3
+  - first:
+      213: 1495045690537759541
+    second: ElectroBeamHit_4
+  - first:
+      213: -8419316669358069864
+    second: ElectroBeamHit_5
+  - first:
+      213: 861513919705018068
+    second: ElectroBeamHit_6
+  - first:
+      213: 440693179563518840
+    second: ElectroBeamHit_7
+  - first:
+      213: 3645237244626954245
+    second: ElectroBeamHit_8
+  - first:
+      213: 3715312636400226188
+    second: ElectroBeamHit_9
+  - first:
+      213: -5836935306966269714
+    second: ElectroBeamHit_10
+  - first:
+      213: -3218429856868118211
+    second: ElectroBeamHit_11
+  - first:
+      213: -2005241830519211859
+    second: ElectroBeamHit_12
+  - first:
+      213: 4001769903421991867
+    second: ElectroBeamHit_13
+  - first:
+      213: -909672000452316688
+    second: ElectroBeamHit_14
+  - first:
+      213: 7835215583609979301
+    second: ElectroBeamHit_15
+  - first:
+      213: 8336799157841044531
+    second: ElectroBeamHit_16
+  - first:
+      213: -381958410890076997
+    second: ElectroBeamHit_17
+  - first:
+      213: -7470516347461156374
+    second: ElectroBeamHit_18
+  - first:
+      213: -2683226213931407247
+    second: ElectroBeamHit_19
+  - first:
+      213: -3330713519825858286
+    second: ElectroBeamHit_20
+  - first:
+      213: 5438745467198709995
+    second: ElectroBeamHit_21
+  - first:
+      213: -3287129336884014245
+    second: ElectroBeamHit_22
+  - first:
+      213: -1686866936864002710
+    second: ElectroBeamHit_23
+  - first:
+      213: -6342416005597616780
+    second: ElectroBeamHit_24
+  - first:
+      213: 4787674743511380789
+    second: ElectroBeamHit_25
+  - first:
+      213: 4616561405702112406
+    second: ElectroBeamHit_26
+  - first:
+      213: 4681015940924189105
+    second: ElectroBeamHit_27
+  - first:
+      213: -4038839321642188180
+    second: ElectroBeamHit_28
+  - first:
+      213: -4598690671051566063
+    second: ElectroBeamHit_29
+  - first:
+      213: -4648207392866627919
+    second: ElectroBeamHit_30
+  - first:
+      213: 4315567962044251926
+    second: ElectroBeamHit_31
+  - first:
+      213: 853243928107792560
+    second: ElectroBeamHit_32
+  - first:
+      213: -4784831004115880618
+    second: ElectroBeamHit_33
+  - first:
+      213: 5347141053834155561
+    second: ElectroBeamHit_34
+  - first:
+      213: -3719250059705185698
+    second: ElectroBeamHit_35
+  - first:
+      213: 7633648935042951694
+    second: ElectroBeamHit_36
+  - first:
+      213: 9036806824779724013
+    second: ElectroBeamHit_37
+  - first:
+      213: 7345097696633324948
+    second: ElectroBeamHit_38
+  - first:
+      213: 1354388941124852169
+    second: ElectroBeamHit_39
+  - first:
+      213: -361395473613344578
+    second: ElectroBeamHit_40
+  - first:
+      213: -4228125618256956553
+    second: ElectroBeamHit_41
+  - first:
+      213: 522639987844680317
+    second: ElectroBeamHit_42
+  - first:
+      213: -3087234401128495825
+    second: ElectroBeamHit_43
+  - first:
+      213: 7044399201214079193
+    second: ElectroBeamHit_44
+  - first:
+      213: 412222259326732232
+    second: ElectroBeamHit_45
+  - first:
+      213: 7321284952456250461
+    second: ElectroBeamHit_46
+  - first:
+      213: -2805111836943097818
+    second: ElectroBeamHit_47
+  - first:
+      213: -2413820152026412437
+    second: ElectroBeamHit_48
+  - first:
+      213: 4654076776785532325
+    second: ElectroBeamHit_49
+  - first:
+      213: -8603510980571787877
+    second: ElectroBeamHit_50
+  - first:
+      213: -8478796410792469423
+    second: ElectroBeamHit_51
+  - first:
+      213: -5671560782936838344
+    second: ElectroBeamHit_52
+  - first:
+      213: 1179634762590140725
+    second: ElectroBeamHit_53
+  - first:
+      213: 2092652285199886596
+    second: ElectroBeamHit_54
+  - first:
+      213: -3297068697614769609
+    second: ElectroBeamHit_55
+  - first:
+      213: -8717385889796945813
+    second: ElectroBeamHit_56
+  - first:
+      213: -1922467759275890816
+    second: ElectroBeamHit_57
+  - first:
+      213: -6404355021505515380
+    second: ElectroBeamHit_58
+  - first:
+      213: -7129998502537595616
+    second: ElectroBeamHit_59
+  - first:
+      213: 440617695979454508
+    second: ElectroBeamHit_60
+  - first:
+      213: 6920295522497291267
+    second: ElectroBeamHit_61
+  - first:
+      213: 8352112143859139561
+    second: ElectroBeamHit_62
+  - first:
+      213: -3442647693334286664
+    second: ElectroBeamHit_63
+  - first:
+      213: 6121034718070431515
+    second: ElectroBeamHit_64
+  - first:
+      213: 2957563280044995914
+    second: ElectroBeamHit_65
+  - first:
+      213: -4609951741135396968
+    second: ElectroBeamHit_66
+  - first:
+      213: -4587227184940931129
+    second: ElectroBeamHit_67
+  - first:
+      213: -7900434291466436611
+    second: ElectroBeamHit_68
+  - first:
+      213: -6286929285395082434
+    second: ElectroBeamHit_69
+  - first:
+      213: 6290756424571501285
+    second: ElectroBeamHit_70
+  - first:
+      213: -3358336805735148442
+    second: ElectroBeamHit_71
+  - first:
+      213: -5069653953637348771
+    second: ElectroBeamHit_72
+  - first:
+      213: -3703530932327182512
+    second: ElectroBeamHit_73
+  - first:
+      213: 6116083319369953618
+    second: ElectroBeamHit_74
+  - first:
+      213: 6483625839223810259
+    second: ElectroBeamHit_75
+  - first:
+      213: 4766453538314483055
+    second: ElectroBeamHit_76
+  - first:
+      213: -2173545805632435116
+    second: ElectroBeamHit_77
+  - first:
+      213: -4726480942475221168
+    second: ElectroBeamHit_78
+  - first:
+      213: 1389022454922648056
+    second: ElectroBeamHit_79
+  - first:
+      213: -1153160294417851933
+    second: ElectroBeamHit_80
+  - first:
+      213: 7479005901862066342
+    second: ElectroBeamHit_81
+  - first:
+      213: 8405220863105162273
+    second: ElectroBeamHit_82
+  - first:
+      213: -3664450108274579801
+    second: ElectroBeamHit_83
+  - first:
+      213: -7975406931365606366
+    second: ElectroBeamHit_84
+  - first:
+      213: 6998057090367963675
+    second: ElectroBeamHit_85
+  - first:
+      213: 7953149971938708207
+    second: ElectroBeamHit_86
+  - first:
+      213: -5979136308751015762
+    second: ElectroBeamHit_87
+  - first:
+      213: -4745631639501663830
+    second: ElectroBeamHit_88
+  - first:
+      213: -5117665466476888935
+    second: ElectroBeamHit_89
+  - first:
+      213: 5777329111896351506
+    second: ElectroBeamHit_90
+  - first:
+      213: -8126600201711667762
+    second: ElectroBeamHit_91
+  - first:
+      213: 5059744729529784549
+    second: ElectroBeamHit_92
+  - first:
+      213: 1872259717277173181
+    second: ElectroBeamHit_93
+  - first:
+      213: 3264813670458780548
+    second: ElectroBeamHit_94
+  - first:
+      213: 1644275189897511564
+    second: ElectroBeamHit_95
+  - first:
+      213: 1097366540378261677
+    second: ElectroBeamHit_96
+  - first:
+      213: -6886769067541100628
+    second: ElectroBeamHit_97
+  - first:
+      213: 939333940781479405
+    second: ElectroBeamHit_98
+  - first:
+      213: -7415793526926776434
+    second: ElectroBeamHit_99
+  - first:
+      213: -8581535830013621530
+    second: ElectroBeamHit_100
+  - first:
+      213: 5259103038472361495
+    second: ElectroBeamHit_101
+  - first:
+      213: -6056558835481522595
+    second: ElectroBeamHit_102
+  - first:
+      213: -3633705557267117943
+    second: ElectroBeamHit_103
+  - first:
+      213: 6262762786871810670
+    second: ElectroBeamHit_104
+  - first:
+      213: 6589974937996654437
+    second: ElectroBeamHit_105
+  - first:
+      213: -6227518230821051843
+    second: ElectroBeamHit_106
+  - first:
+      213: 3707391315530480857
+    second: ElectroBeamHit_107
+  - first:
+      213: 8559591542792608307
+    second: ElectroBeamHit_108
+  - first:
+      213: -4300929184761590523
+    second: ElectroBeamHit_109
+  - first:
+      213: -7933178156551311609
+    second: ElectroBeamHit_110
+  - first:
+      213: 8415682556669743551
+    second: ElectroBeamHit_111
+  - first:
+      213: 2581207251251714455
+    second: ElectroBeamHit_112
+  - first:
+      213: -9082025033262015641
+    second: ElectroBeamHit_113
+  - first:
+      213: -2109921021363395536
+    second: ElectroBeamHit_114
+  - first:
+      213: -8796921808270342428
+    second: ElectroBeamHit_115
+  - first:
+      213: -7322768823857768906
+    second: ElectroBeamHit_116
+  - first:
+      213: 5204324537000529905
+    second: ElectroBeamHit_117
+  - first:
+      213: -2190242102129738698
+    second: ElectroBeamHit_118
+  - first:
+      213: -8433854615287893585
+    second: ElectroBeamHit_119
+  - first:
+      213: 5357628682333050716
+    second: ElectroBeamHit_120
+  - first:
+      213: 3523593141792018692
+    second: ElectroBeamHit_121
+  - first:
+      213: 5325783417891743470
+    second: ElectroBeamHit_122
+  - first:
+      213: 1998132599645960479
+    second: ElectroBeamHit_123
+  - first:
+      213: -6690843397650362538
+    second: ElectroBeamHit_124
+  - first:
+      213: -5483748858989526185
+    second: ElectroBeamHit_125
+  - first:
+      213: 4082303278365232387
+    second: ElectroBeamHit_126
+  - first:
+      213: -8801175027667677922
+    second: ElectroBeamHit_127
+  - first:
+      213: 4401319416352950037
+    second: ElectroBeamHit_128
+  - first:
+      213: -2421916241598708637
+    second: ElectroBeamHit_129
+  - first:
+      213: -612643043080199631
+    second: ElectroBeamHit_130
+  - first:
+      213: 2099338675400665502
+    second: ElectroBeamHit_131
+  - first:
+      213: -5669541637922485348
+    second: ElectroBeamHit_132
+  - first:
+      213: -6995966573536131994
+    second: ElectroBeamHit_133
+  - first:
+      213: 4532680586479234388
+    second: ElectroBeamHit_134
+  - first:
+      213: 6941183343410928416
+    second: ElectroBeamHit_135
+  - first:
+      213: -8232882515868360914
+    second: ElectroBeamHit_136
+  - first:
+      213: 8037998992444176934
+    second: ElectroBeamHit_137
+  - first:
+      213: 3656456263833481461
+    second: ElectroBeamHit_138
+  - first:
+      213: -1812117920613348659
+    second: ElectroBeamHit_139
+  - first:
+      213: -2098657758390712772
+    second: ElectroBeamHit_140
+  - first:
+      213: 8022869739652081724
+    second: ElectroBeamHit_141
+  - first:
+      213: 246492010518443434
+    second: ElectroBeamHit_142
+  - first:
+      213: 6724559931071354401
+    second: ElectroBeamHit_143
+  - first:
+      213: -4617095302429138406
+    second: ElectroBeamHit_144
+  - first:
+      213: -5148784871629431369
+    second: ElectroBeamHit_145
+  - first:
+      213: 6154337686591785
+    second: ElectroBeamHit_146
+  - first:
+      213: 8334824431036295150
+    second: ElectroBeamHit_147
+  - first:
+      213: 1750882008148665523
+    second: ElectroBeamHit_148
+  - first:
+      213: -8270359981037139350
+    second: ElectroBeamHit_149
+  - first:
+      213: 4073642443129775467
+    second: ElectroBeamHit_150
+  - first:
+      213: -3427695195539052513
+    second: ElectroBeamHit_151
+  - first:
+      213: 141175008810858137
+    second: ElectroBeamHit_152
+  - first:
+      213: 6895730376944870729
+    second: ElectroBeamHit_153
+  - first:
+      213: -2335856816780157013
+    second: ElectroBeamHit_154
+  - first:
+      213: -2557914159492810251
+    second: ElectroBeamHit_155
+  - first:
+      213: 3418544957409216137
+    second: ElectroBeamHit_156
+  - first:
+      213: 382157728691746342
+    second: ElectroBeamHit_157
+  - first:
+      213: -7794608231966097335
+    second: ElectroBeamHit_158
+  - first:
+      213: -3630768006676835732
+    second: ElectroBeamHit_159
+  - first:
+      213: -2491710715452237772
+    second: ElectroBeamHit_160
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElectroBeamHit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 164
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b35d3628b1f9d1f0800000000000000
+      internalID: -1019518067404876877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 80
+        width: 164
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1d2e148bafad960800000000000000
+      internalID: 7627684588191666635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 80
+        width: 164
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955c90b97a70be810800000000000000
+      internalID: 1795537292879316313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 80
+        width: 164
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec16e8e8482b49e80800000000000000
+      internalID: -8172711141373484594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_4
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 80
+        width: 164
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5335b7b62287fb410800000000000000
+      internalID: 1495045690537759541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_5
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 80
+        width: 164
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897236fb814982b80800000000000000
+      internalID: -8419316669358069864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 162
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de62117856b4fb00800000000000000
+      internalID: 861513919705018068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 231
+        width: 164
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d0c0db282c93f48b98e811bb25e0a0
+      internalID: 440693179563518840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 233
+        width: 157
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e66476825b4414b9a656e7d029c1df
+      internalID: 3645237244626954245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 235
+        width: 160
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870cfa1b52f780347a2317cbfaf117c0
+      internalID: 3715312636400226188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_10
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 236
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3b7cb58932d0e4bb135c6601f62323
+      internalID: -5836935306966269714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeamHit_11
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 245
+        width: 174
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08b25769971a494d841aac0974149c1
+      internalID: -3218429856868118211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0038e3cc794ba6c40a516619f5b2f7c4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ElectroBeamHit_0: -1019518067404876877
+      ElectroBeamHit_1: 7627684588191666635
+      ElectroBeamHit_10: -5836935306966269714
+      ElectroBeamHit_11: -3218429856868118211
+      ElectroBeamHit_2: 1795537292879316313
+      ElectroBeamHit_3: -8172711141373484594
+      ElectroBeamHit_4: 1495045690537759541
+      ElectroBeamHit_5: -8419316669358069864
+      ElectroBeamHit_6: 861513919705018068
+      ElectroBeamHit_7: 440693179563518840
+      ElectroBeamHit_8: 3645237244626954245
+      ElectroBeamHit_9: 3715312636400226188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

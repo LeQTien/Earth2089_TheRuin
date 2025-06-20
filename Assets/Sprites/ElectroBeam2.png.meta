@@ -1,0 +1,2858 @@
+fileFormatVersion: 2
+guid: 267d3c7ec6642264a8d54460418fa560
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3936144156385445345
+    second: ElectroBeam 1_0
+  - first:
+      213: 1839966502191298
+    second: ElectroBeam 1_1
+  - first:
+      213: 1932118799377000969
+    second: ElectroBeam 1_2
+  - first:
+      213: -1256649811452145739
+    second: ElectroBeam 1_3
+  - first:
+      213: -7657623631027271136
+    second: ElectroBeam 1_4
+  - first:
+      213: -364904068982159301
+    second: ElectroBeam 1_5
+  - first:
+      213: 8543882333655447044
+    second: ElectroBeam 1_6
+  - first:
+      213: 519529712457936102
+    second: ElectroBeam 1_7
+  - first:
+      213: -9082714048941505621
+    second: ElectroBeam 1_8
+  - first:
+      213: -2017307911691231197
+    second: ElectroBeam 1_9
+  - first:
+      213: 5405453895034268194
+    second: ElectroBeam 1_10
+  - first:
+      213: -4315126680317980096
+    second: ElectroBeam 1_11
+  - first:
+      213: -6572089316307877695
+    second: ElectroBeam 1_12
+  - first:
+      213: -7419992676953399902
+    second: ElectroBeam 1_13
+  - first:
+      213: -1988058022822226508
+    second: ElectroBeam 1_14
+  - first:
+      213: 2094944965758476273
+    second: ElectroBeam 1_15
+  - first:
+      213: -6322345808799380986
+    second: ElectroBeam 1_16
+  - first:
+      213: -8681101441101932303
+    second: ElectroBeam 1_17
+  - first:
+      213: 1626531727670720482
+    second: ElectroBeam 1_18
+  - first:
+      213: -2472492812298142887
+    second: ElectroBeam 1_19
+  - first:
+      213: -1366126563318860042
+    second: ElectroBeam 1_20
+  - first:
+      213: -2590222952999882469
+    second: ElectroBeam 1_21
+  - first:
+      213: 7944580293964782970
+    second: ElectroBeam 1_22
+  - first:
+      213: -532365839383780829
+    second: ElectroBeam 1_23
+  - first:
+      213: 1224200348911400495
+    second: ElectroBeam 1_24
+  - first:
+      213: 8608418244942563130
+    second: ElectroBeam 1_25
+  - first:
+      213: -1997010308896770594
+    second: ElectroBeam 1_26
+  - first:
+      213: -3023341306428662566
+    second: ElectroBeam 1_27
+  - first:
+      213: 1985042533821920256
+    second: ElectroBeam 1_28
+  - first:
+      213: 4957980769383189688
+    second: ElectroBeam 1_29
+  - first:
+      213: 3137004579522367306
+    second: ElectroBeam 1_30
+  - first:
+      213: 7285987562962109651
+    second: ElectroBeam 1_31
+  - first:
+      213: 3648161981698333690
+    second: ElectroBeam 1_32
+  - first:
+      213: 1944986728000543542
+    second: ElectroBeam 1_33
+  - first:
+      213: 1860639154073656873
+    second: ElectroBeam 1_34
+  - first:
+      213: -8787480006904705858
+    second: ElectroBeam 1_35
+  - first:
+      213: 8670426382790510924
+    second: ElectroBeam 1_36
+  - first:
+      213: -4803041131822268323
+    second: ElectroBeam 1_37
+  - first:
+      213: -3460908920016589725
+    second: ElectroBeam 1_38
+  - first:
+      213: -3584114927368856018
+    second: ElectroBeam 1_39
+  - first:
+      213: 1376416407981234831
+    second: ElectroBeam 1_40
+  - first:
+      213: -7943318076762284236
+    second: ElectroBeam 1_41
+  - first:
+      213: -3248383897934225498
+    second: ElectroBeam 1_42
+  - first:
+      213: -7384725841923709910
+    second: ElectroBeam 1_43
+  - first:
+      213: 701290767401999398
+    second: ElectroBeam 1_44
+  - first:
+      213: 8727164912998287982
+    second: ElectroBeam 1_45
+  - first:
+      213: -6964672566796470326
+    second: ElectroBeam 1_46
+  - first:
+      213: -1159044465218803802
+    second: ElectroBeam 1_47
+  - first:
+      213: 4088806051547874388
+    second: ElectroBeam 1_48
+  - first:
+      213: -2408423370373954324
+    second: ElectroBeam 1_49
+  - first:
+      213: -6202447076210954720
+    second: ElectroBeam 1_50
+  - first:
+      213: 8040726664437596449
+    second: ElectroBeam 1_51
+  - first:
+      213: 3115214349131026633
+    second: ElectroBeam 1_52
+  - first:
+      213: 8873998436519138268
+    second: ElectroBeam 1_53
+  - first:
+      213: 8260697861579554770
+    second: ElectroBeam 1_54
+  - first:
+      213: -7762414607941381662
+    second: ElectroBeam 1_55
+  - first:
+      213: 1646954668158276316
+    second: ElectroBeam 1_56
+  - first:
+      213: 8167456692417335249
+    second: ElectroBeam 1_57
+  - first:
+      213: -5587502979924859747
+    second: ElectroBeam 1_58
+  - first:
+      213: 3794826939519694539
+    second: ElectroBeam 1_59
+  - first:
+      213: -1033746829174498534
+    second: ElectroBeam 1_60
+  - first:
+      213: 6277304384423662892
+    second: ElectroBeam 1_61
+  - first:
+      213: -1552513020776499071
+    second: ElectroBeam 1_62
+  - first:
+      213: -1282990513960515754
+    second: ElectroBeam 1_63
+  - first:
+      213: 2908464606202066884
+    second: ElectroBeam 1_64
+  - first:
+      213: 7997754493608310993
+    second: ElectroBeam 1_65
+  - first:
+      213: 6061590351726331044
+    second: ElectroBeam 1_66
+  - first:
+      213: 8488789077102226029
+    second: ElectroBeam 1_67
+  - first:
+      213: 8282779975447597794
+    second: ElectroBeam 1_68
+  - first:
+      213: 6021010030831077427
+    second: ElectroBeam 1_69
+  - first:
+      213: 8821592331571180362
+    second: ElectroBeam 1_70
+  - first:
+      213: -7620218581259164241
+    second: ElectroBeam 1_71
+  - first:
+      213: -7991234455223306172
+    second: ElectroBeam 1_72
+  - first:
+      213: 2077040818948262584
+    second: ElectroBeam 1_73
+  - first:
+      213: 8286369680412987171
+    second: ElectroBeam 1_74
+  - first:
+      213: -18486394413582480
+    second: ElectroBeam 1_75
+  - first:
+      213: 564051008878386270
+    second: ElectroBeam 1_76
+  - first:
+      213: -6656822893842159868
+    second: ElectroBeam 1_77
+  - first:
+      213: -7588770001045728999
+    second: ElectroBeam 1_78
+  - first:
+      213: 8809465731651571896
+    second: ElectroBeam 1_79
+  - first:
+      213: 871117389880802013
+    second: ElectroBeam 1_80
+  - first:
+      213: 1083644950025601626
+    second: ElectroBeam 1_81
+  - first:
+      213: 5879511060889696881
+    second: ElectroBeam 1_82
+  - first:
+      213: -2535603808364818050
+    second: ElectroBeam 1_83
+  - first:
+      213: 6720305367666159217
+    second: ElectroBeam 1_84
+  - first:
+      213: -5567098536622498442
+    second: ElectroBeam 1_85
+  - first:
+      213: -424241042928106681
+    second: ElectroBeam 1_86
+  - first:
+      213: 621852974610655429
+    second: ElectroBeam 1_87
+  - first:
+      213: 6975687989417577777
+    second: ElectroBeam 1_88
+  - first:
+      213: 6722243961606864241
+    second: ElectroBeam 1_89
+  - first:
+      213: 1245744627862028509
+    second: ElectroBeam 1_90
+  - first:
+      213: -2101371640979815949
+    second: ElectroBeam 1_91
+  - first:
+      213: -1827380369243596811
+    second: ElectroBeam 1_92
+  - first:
+      213: -9064219049216362609
+    second: ElectroBeam 1_93
+  - first:
+      213: -6295016383493201183
+    second: ElectroBeam 1_94
+  - first:
+      213: -358666593969324520
+    second: ElectroBeam 1_95
+  - first:
+      213: 5767455240387506662
+    second: ElectroBeam 1_96
+  - first:
+      213: 7496988610740432133
+    second: ElectroBeam 1_97
+  - first:
+      213: 325619166756998212
+    second: ElectroBeam 1_98
+  - first:
+      213: -5531115040959359711
+    second: ElectroBeam 1_99
+  - first:
+      213: 6833222489293785375
+    second: ElectroBeam 1_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElectroBeam2_0
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 908
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9130e7963cdc7374eb0f6bad91b96206
+      internalID: -1537211863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 903
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650b6e99ffeb8594ab99388c3d691f33
+      internalID: -643869064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 777
+        width: 414
+        height: 126
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b866a19c4b1d84d9bd2c6d885ac670
+      internalID: 1294520325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_3
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 899
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6b504a1275892439107b5520785ea6
+      internalID: 1500820885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_4
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 755
+        width: 207
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8099fcd91548d094fb1b0e52aeff3aee
+      internalID: -2018609672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_5
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 829
+        width: 14
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f80fa12a5f7781468fbf49541947ccb
+      internalID: -744330112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_6
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 814
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2d94e274eb8fe4b99441dba29daeca
+      internalID: 1151321536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_7
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 820
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88f92c4e2c2f0f448fb42ff6441ed02
+      internalID: 1507117514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_8
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 819
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d764831e22ce48e4da5dc2ffc4ddd629
+      internalID: -1346045402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_9
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 828
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc14bc658bf5be94fa6445e5465e6e9c
+      internalID: -488872677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_10
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 798
+        width: 181
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3182dad168082714491afebb5d19af0a
+      internalID: -578626752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_11
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 817
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94a41f03c8cb7a44ba868edcb6da29e
+      internalID: 2022282071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_12
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 816
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8571582590197dc4b878ef2017801a82
+      internalID: 743159887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_13
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 813
+        width: 7
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583e82646ceffa944aeeb06aef7584dd
+      internalID: -1649052019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_14
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 812
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f0774b89c008045acbbfd291a59f89
+      internalID: 1367441466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_15
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 809
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cf3c458e58acb419d2f19d54833638
+      internalID: 1188477421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_16
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 811
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d943822a098c54f8a3faeadd24a502
+      internalID: -544547052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_17
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 795
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b048110dbf84fd48b547434032e88ed
+      internalID: 1936938792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_18
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 779
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3c6a31b28265849bef5ceb696b7370
+      internalID: 119390371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_19
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 778
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bc1cc5d577bd849aac5a7c9b2e2a48
+      internalID: -592858950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_20
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 791
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b3b5fefb20904784441bc507b8140
+      internalID: -254801934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_21
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 789
+        width: 6
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d0e590384d30042a8c9f7e1d7edca9
+      internalID: -890957238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_22
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 795
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e263e1f878f8746af8a99763827abf
+      internalID: -1260640819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_23
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 779
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf6b8c0706efdf48a0653bc0c180cd2
+      internalID: -961497508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_24
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 795
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbcbe92b3125494f938c793a2db4eec
+      internalID: -788383157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_25
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 790
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e44c008ec084be46b52d32e6818e24d
+      internalID: -776504005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_26
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 782
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522de7a06bea1e641ad5d58eb9d6194c
+      internalID: -994458151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_27
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 787
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5cee98aabf80e4ba10f9068d787084
+      internalID: -916427780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 784
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e980fefe937dae418511c46703bbc62
+      internalID: -1997662314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_29
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 775
+        width: 15
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c273504c5b83aa4c8eb649561d08ecf
+      internalID: -1201305268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_30
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 775
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b89abdc68974341920c128ba280586
+      internalID: -124264324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_31
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 780
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6226c33e2b0953488b974387732cd77
+      internalID: 1399898855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_32
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 779
+        width: 14
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7340d7507ac184284c2dc6642d120d
+      internalID: 1385105099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_33
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 749
+        width: 49
+        height: 37
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2f8b30b41f61e44ac2c9225fe99ca4
+      internalID: 1259672180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_34
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 771
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8764988e38ed97d478e342b97ec70c53
+      internalID: -1941028321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_35
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 624
+        width: 412
+        height: 134
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a47414c54084a4b8d1f7e9b3586bb6
+      internalID: -62154334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_36
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 755
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cfb7fde71cd23438ea9345b0ad72d5
+      internalID: 352437093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_37
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 757
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d65cec789527640be728011550b01c
+      internalID: 987025755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_38
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 586
+        width: 394
+        height: 138
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c060f01c0d51d294d800fe425269a36a
+      internalID: 359972280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_39
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 722
+        width: 12
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f5d070d53d1e542be62fe7d0839810
+      internalID: -1730550075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_40
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 710
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76287756f40c6b43a9af82a16eb966d
+      internalID: 1582414730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_41
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 630
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7d5bb9cf8e73343b06fef758412639
+      internalID: -1937308998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_42
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 615
+        width: 16
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcd5df9cf3bfed41bbeb8d6a8f0aefb
+      internalID: 630887130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_43
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 618
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e720224a9de69458546447673e0b12
+      internalID: 1864954438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_44
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 475
+        width: 409
+        height: 138
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea98538eb81c4644bdada93e0a5ed47
+      internalID: -1077595444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_45
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 453
+        width: 397
+        height: 120
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebf4f0c5e99e9a458e0fbec88ee29d3
+      internalID: 96279892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_46
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 572
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab739c55cbf172649b8b2cf03635f079
+      internalID: -284691616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_47
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 486
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57abfb5ffe59a354b80d7caf0a606b64
+      internalID: -1679508727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_48
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 486
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19357f2fc23fd0141a4ce708e781c327
+      internalID: -807498734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_49
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 485
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e7621086f22b949a70e776cd1ad230
+      internalID: -345560103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_50
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 487
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604a0b8a46af489479c455e3e0f6a3f4
+      internalID: 354723775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_51
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 321
+        width: 410
+        height: 139
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46e999cea8bfe74e89dfb8baf0d6b45
+      internalID: -670320508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_52
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 325
+        width: 405
+        height: 117
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e1f8ce88658ed44b6324f69123c0bc
+      internalID: 479290618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_53
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 437
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e29863a4836acf48b2a1ba687b36528
+      internalID: 467720382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_54
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 433
+        width: 23
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa1708db28eafb4f9d53c79dccbfe79
+      internalID: -888137933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_55
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 356
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb712cdfab5c57c499669e021a8a4044
+      internalID: 22698333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_56
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 358
+        width: 13
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7003c692830fe3f4aa78aa0b077bd216
+      internalID: 466131513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_57
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 352
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf8243106c11b640960108eb439f2f2
+      internalID: 1434844236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_58
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 346
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314a9b52db2a2fb49aca1ecfb14dae5a
+      internalID: 757091444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_59
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 350
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c6d235e1fb6694bbe9c707ff40e7a7
+      internalID: -1251621619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_60
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 342
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e09a4b15a7a8b4fa50726f91e65c06
+      internalID: 1220592516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_61
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 174
+        width: 412
+        height: 137
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86880cd47c3a7044887b741fc9e33d60
+      internalID: 1910055635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_62
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 202
+        width: 414
+        height: 117
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5a9119d0534764abfcc53172fe1a12
+      internalID: 1847942355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_63
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 308
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653525144643a9644a48fa9508c35b6d
+      internalID: -93537570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_64
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 304
+        width: 22
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c49f8894a923694dbddf1fc18e4b5ea
+      internalID: -1739510047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_65
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 297
+        width: 11
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84198111057bfd41a0b72429b938968
+      internalID: 1572486546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_66
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 297
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c4bfe2163659946ac501fde0bad7e5
+      internalID: 1577050867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_67
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 294
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664480b2d2a19fe4cbc7decde6f67d8d
+      internalID: -257845583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_68
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 292
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6a2c2160e5c9341942504410e80bb5
+      internalID: -2126112022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_69
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 244
+        width: 56
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6f4dafeceb0584cb9ead0d13d91ed3
+      internalID: -1197613828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_70
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 236
+        width: 12
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f001c565e43e144a808940af6c591ed
+      internalID: -1632879814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_71
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 228
+        width: 9
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ecbfd48dbd2a04a831f7401ec4f786
+      internalID: -2017710936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_72
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 230
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18be5f32408c6db4588684a289cb5379
+      internalID: -489502424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_73
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 233
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2335aaafbc840c4a9e39ee95f9202d8
+      internalID: -1522457610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_74
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 198
+        width: 10
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c9c40faefc1b64eb449c67b2dc23dc
+      internalID: -1423973137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_75
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 208
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81bc14a53b2b67439e137c31a73aa4f
+      internalID: 484392018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_76
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 198
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f45712db4b5c18458a081f9b7367d7f
+      internalID: 1415333461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_77
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 195
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd5da5a3c77dd141803afba42cdef7c
+      internalID: 787950705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_78
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 188
+        width: 18
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cd3fc6ce70f3b4e8ce38a839e894bf
+      internalID: -1568967382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_79
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 190
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8f500bab8b7dd4294859be756cd814
+      internalID: -12763684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_80
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 132
+        width: 53
+        height: 60
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7557d2258a0a34ba63f2fcae8eff98
+      internalID: 54889190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_81
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 188
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6e91b7ef1eb1f46b74462342b60a6f
+      internalID: -482393845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_82
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 174
+        width: 44
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdf336e0c8c8c9479bd84f3423aa77f
+      internalID: 2019282520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_83
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 162
+        width: 33
+        height: 25
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7814bacc56c5ea49b63bc71578b1170
+      internalID: 992930710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_84
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 157
+        width: 39
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2db7438a33a7fd4588a11fb0cc84e44
+      internalID: 1452595471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_85
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 157
+        width: 18
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3d10b1b2658114aa4f754e3114a93c
+      internalID: -1545982208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_86
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 157
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f4ce3660e89fd42b9432304ad45203
+      internalID: 462760490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_87
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 161
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32e1004870fd6c42bae0342c911c978
+      internalID: 463579512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_88
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 23
+        width: 411
+        height: 136
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8352e8ea573767c40b51f6db0a360b24
+      internalID: -1613270907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_89
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 40
+        width: 412
+        height: 119
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a79d6a2d16d5a74db29a2ac71e991ad
+      internalID: 133760326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_90
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 152
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caa96ea10591ab42af1c167493d06ec
+      internalID: -612998365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_91
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 44
+        width: 384
+        height: 62
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaa7a146dd0aa24a8c3304e7df19a26
+      internalID: -1414784862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_92
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 96
+        width: 16
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2132d9f5a0149a41a2af7fe200976dd
+      internalID: 386880688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_93
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 99
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0090eb456c664f6419f9fabf1d89779b
+      internalID: -1727316158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_94
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 40
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8262b4320c761104c86ac130f04f6d2e
+      internalID: -1870024357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_95
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 44
+        width: 10
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda0bc2032f3b4f449b43478209cbe83
+      internalID: 1741401996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_96
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 48
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a76f2cd5b363c24fb4dc24ba8faf76b
+      internalID: 1426120134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_97
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 40
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272c7aebc94aa3641b61e0354da1fcbc
+      internalID: 2050834807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_98
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 41
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01e2977bac796743abead066c7e70ca
+      internalID: 1449029752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_99
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 35
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58da24bc85a4f749a3db072790c603e
+      internalID: 240385122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_100
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 30
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b881fa06f000b49bd5c01d6a07672c
+      internalID: -140936555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_101
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 24
+        width: 13
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ccf6b4553d2754699417d506d2969f
+      internalID: 1893321858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_102
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 26
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9935e6ce6aec6e4a91ac58ea2995596
+      internalID: 1062599978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_103
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 33
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ff25ef57ea2344fa1393fc98572375
+      internalID: -231186839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_104
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 24
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0392eac3e42f54eb9e6732d3541954
+      internalID: -1704772918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroBeam2_105
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 25
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f953b398a81a1e4b88e4b451959bd66
+      internalID: 1136517197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8619138faa6b03949bca0dcab75e0249
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ElectroBeam2_0: -1537211863
+      ElectroBeam2_1: -643869064
+      ElectroBeam2_10: -578626752
+      ElectroBeam2_100: -140936555
+      ElectroBeam2_101: 1893321858
+      ElectroBeam2_102: 1062599978
+      ElectroBeam2_103: -231186839
+      ElectroBeam2_104: -1704772918
+      ElectroBeam2_105: 1136517197
+      ElectroBeam2_11: 2022282071
+      ElectroBeam2_12: 743159887
+      ElectroBeam2_13: -1649052019
+      ElectroBeam2_14: 1367441466
+      ElectroBeam2_15: 1188477421
+      ElectroBeam2_16: -544547052
+      ElectroBeam2_17: 1936938792
+      ElectroBeam2_18: 119390371
+      ElectroBeam2_19: -592858950
+      ElectroBeam2_2: 1294520325
+      ElectroBeam2_20: -254801934
+      ElectroBeam2_21: -890957238
+      ElectroBeam2_22: -1260640819
+      ElectroBeam2_23: -961497508
+      ElectroBeam2_24: -788383157
+      ElectroBeam2_25: -776504005
+      ElectroBeam2_26: -994458151
+      ElectroBeam2_27: -916427780
+      ElectroBeam2_28: -1997662314
+      ElectroBeam2_29: -1201305268
+      ElectroBeam2_3: 1500820885
+      ElectroBeam2_30: -124264324
+      ElectroBeam2_31: 1399898855
+      ElectroBeam2_32: 1385105099
+      ElectroBeam2_33: 1259672180
+      ElectroBeam2_34: -1941028321
+      ElectroBeam2_35: -62154334
+      ElectroBeam2_36: 352437093
+      ElectroBeam2_37: 987025755
+      ElectroBeam2_38: 359972280
+      ElectroBeam2_39: -1730550075
+      ElectroBeam2_4: -2018609672
+      ElectroBeam2_40: 1582414730
+      ElectroBeam2_41: -1937308998
+      ElectroBeam2_42: 630887130
+      ElectroBeam2_43: 1864954438
+      ElectroBeam2_44: -1077595444
+      ElectroBeam2_45: 96279892
+      ElectroBeam2_46: -284691616
+      ElectroBeam2_47: -1679508727
+      ElectroBeam2_48: -807498734
+      ElectroBeam2_49: -345560103
+      ElectroBeam2_5: -744330112
+      ElectroBeam2_50: 354723775
+      ElectroBeam2_51: -670320508
+      ElectroBeam2_52: 479290618
+      ElectroBeam2_53: 467720382
+      ElectroBeam2_54: -888137933
+      ElectroBeam2_55: 22698333
+      ElectroBeam2_56: 466131513
+      ElectroBeam2_57: 1434844236
+      ElectroBeam2_58: 757091444
+      ElectroBeam2_59: -1251621619
+      ElectroBeam2_6: 1151321536
+      ElectroBeam2_60: 1220592516
+      ElectroBeam2_61: 1910055635
+      ElectroBeam2_62: 1847942355
+      ElectroBeam2_63: -93537570
+      ElectroBeam2_64: -1739510047
+      ElectroBeam2_65: 1572486546
+      ElectroBeam2_66: 1577050867
+      ElectroBeam2_67: -257845583
+      ElectroBeam2_68: -2126112022
+      ElectroBeam2_69: -1197613828
+      ElectroBeam2_7: 1507117514
+      ElectroBeam2_70: -1632879814
+      ElectroBeam2_71: -2017710936
+      ElectroBeam2_72: -489502424
+      ElectroBeam2_73: -1522457610
+      ElectroBeam2_74: -1423973137
+      ElectroBeam2_75: 484392018
+      ElectroBeam2_76: 1415333461
+      ElectroBeam2_77: 787950705
+      ElectroBeam2_78: -1568967382
+      ElectroBeam2_79: -12763684
+      ElectroBeam2_8: -1346045402
+      ElectroBeam2_80: 54889190
+      ElectroBeam2_81: -482393845
+      ElectroBeam2_82: 2019282520
+      ElectroBeam2_83: 992930710
+      ElectroBeam2_84: 1452595471
+      ElectroBeam2_85: -1545982208
+      ElectroBeam2_86: 462760490
+      ElectroBeam2_87: 463579512
+      ElectroBeam2_88: -1613270907
+      ElectroBeam2_89: 133760326
+      ElectroBeam2_9: -488872677
+      ElectroBeam2_90: -612998365
+      ElectroBeam2_91: -1414784862
+      ElectroBeam2_92: 386880688
+      ElectroBeam2_93: -1727316158
+      ElectroBeam2_94: -1870024357
+      ElectroBeam2_95: 1741401996
+      ElectroBeam2_96: 1426120134
+      ElectroBeam2_97: 2050834807
+      ElectroBeam2_98: 1449029752
+      ElectroBeam2_99: 240385122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

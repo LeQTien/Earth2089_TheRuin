@@ -1,0 +1,1069 @@
+fileFormatVersion: 2
+guid: de3105769c17b2f47aca848220a49007
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5371655395617051638
+    second: ElectroShot_0
+  - first:
+      213: 3124902891132448339
+    second: ElectroShot_1
+  - first:
+      213: 2569586858444233940
+    second: ElectroShot_2
+  - first:
+      213: -6558701626726406225
+    second: ElectroShot_3
+  - first:
+      213: 3969731478634686867
+    second: ElectroShot_4
+  - first:
+      213: -1973577620274618583
+    second: ElectroShot_5
+  - first:
+      213: -272846248129856180
+    second: ElectroShot_6
+  - first:
+      213: -31238821265324386
+    second: ElectroShot_7
+  - first:
+      213: -1736695041387193203
+    second: ElectroShot_8
+  - first:
+      213: 6148992754157807829
+    second: ElectroShot_9
+  - first:
+      213: -8186934583316842879
+    second: ElectroShot_10
+  - first:
+      213: 3403934576833253037
+    second: ElectroShot_11
+  - first:
+      213: -3752740697002955877
+    second: ElectroShot_12
+  - first:
+      213: -3542911877456623412
+    second: ElectroShot_13
+  - first:
+      213: -825721178344454641
+    second: ElectroShot_14
+  - first:
+      213: -1587845353763723842
+    second: ElectroShot_15
+  - first:
+      213: -3803480300780772213
+    second: ElectroShot_16
+  - first:
+      213: -3495831516325449609
+    second: ElectroShot_17
+  - first:
+      213: -9010087726841478565
+    second: ElectroShot_18
+  - first:
+      213: -791442905705510731
+    second: ElectroShot_19
+  - first:
+      213: -5663287933539211984
+    second: ElectroShot_20
+  - first:
+      213: -5784865822782028052
+    second: ElectroShot_21
+  - first:
+      213: -7146794878908513283
+    second: ElectroShot_22
+  - first:
+      213: -2209847910896067806
+    second: ElectroShot_23
+  - first:
+      213: -7604490181628619513
+    second: ElectroShot_24
+  - first:
+      213: 9055680637862890197
+    second: ElectroShot_25
+  - first:
+      213: -2170738679387675184
+    second: ElectroShot_26
+  - first:
+      213: 2616827523682463584
+    second: ElectroShot_27
+  - first:
+      213: -391265664830964661
+    second: ElectroShot_28
+  - first:
+      213: 3244459603515162251
+    second: ElectroShot_29
+  - first:
+      213: 6652853874452196594
+    second: ElectroShot_30
+  - first:
+      213: 8063430388550299655
+    second: ElectroShot_31
+  - first:
+      213: 6581884686008573536
+    second: ElectroShot_32
+  - first:
+      213: -7856919390717353319
+    second: ElectroShot_33
+  - first:
+      213: 6114758105991497146
+    second: ElectroShot_34
+  - first:
+      213: -8650880061267791494
+    second: ElectroShot_35
+  - first:
+      213: 3378351571272851167
+    second: ElectroShot_36
+  - first:
+      213: 8898057911075135181
+    second: ElectroShot_37
+  - first:
+      213: -5731054118913452771
+    second: ElectroShot_38
+  - first:
+      213: -1501744391576731202
+    second: ElectroShot_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElectroShot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 23
+        height: 20
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c6f60c0eb0475b0800000000000000
+      internalID: -5371655395617051638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 101
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.37, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e6a8f7f92ed5b20800000000000000
+      internalID: 3124902891132448339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 99
+        width: 38
+        height: 29
+      alignment: 9
+      pivot: {x: 0.365, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc941d22a109a320800000000000000
+      internalID: 2569586858444233940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 98
+        width: 41
+        height: 31
+      alignment: 9
+      pivot: {x: 0.36, y: 0.486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa72237be9fcaf4a0800000000000000
+      internalID: -6558701626726406225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 97
+        width: 43
+        height: 33
+      alignment: 9
+      pivot: {x: 0.365, y: 0.485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399e4bd4fb1571730800000000000000
+      internalID: 3969731478634686867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 91
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fdede5c917c94e0800000000000000
+      internalID: -1973577620274618583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 45
+        height: 34
+      alignment: 9
+      pivot: {x: 0.375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dfbed68c7a63cf0800000000000000
+      internalID: -272846248129856180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 91
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9647432574019ff0800000000000000
+      internalID: -31238821265324386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 91
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c1feeaf0506e7e0800000000000000
+      internalID: -1736695041387193203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 91
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8e606c45c955550800000000000000
+      internalID: 6148992754157807829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 91
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186f90a6f5a226e80800000000000000
+      internalID: -8186934583316842879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_11
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 91
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daec0da76743d3f20800000000000000
+      internalID: 3403934576833253037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 22
+        height: 25
+      alignment: 9
+      pivot: {x: 0.54, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc88fa92b6c05dec0800000000000000
+      internalID: -3542911877456623412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 52
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.56, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06034196f27a84f0800000000000000
+      internalID: -825721178344454641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 52
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.57, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5a8a24017d6f9e0800000000000000
+      internalID: -1587845353763723842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 52
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.57, y: 0.444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8424c171d2573bc0800000000000000
+      internalID: -3803480300780772213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 52
+        width: 23
+        height: 20
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7707ec2f1cf4c7fc0800000000000000
+      internalID: -3495831516325449609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 52
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.519, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52c18e23fcb5f280800000000000000
+      internalID: -9010087726841478565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 52
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.56, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b88b69deda3405f0800000000000000
+      internalID: -791442905705510731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 52
+        width: 27
+        height: 28
+      alignment: 9
+      pivot: {x: 0.447, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035a3ac31a5f761b0800000000000000
+      internalID: -5663287933539211984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce687c70f2708bfa0800000000000000
+      internalID: -5784865822782028052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3c3184ceb71dc90800000000000000
+      internalID: -7146794878908513283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_23
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: 0.52713555, y: 0.453349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b9667880b0551e0800000000000000
+      internalID: -2209847910896067806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 29
+        height: 36
+      alignment: 9
+      pivot: {x: 0.53538984, y: 0.4477067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705941a587c677690800000000000000
+      internalID: -7604490181628619513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 32
+        height: 38
+      alignment: 9
+      pivot: {x: 0.47873688, y: 0.48657256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da4333af8d3cad70800000000000000
+      internalID: 9055680637862890197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2
+        width: 32
+        height: 39
+      alignment: 9
+      pivot: {x: 0.47359848, y: 0.45609283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5a5e21cacffd1e0800000000000000
+      internalID: -2170738679387675184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 4
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.48814115, y: 0.44360626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fee8ba4c6d05420800000000000000
+      internalID: 2616827523682463584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_28
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3
+        width: 33
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48986122, y: 0.47432974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c71fa63f1f19af0800000000000000
+      internalID: -391265664830964661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 33
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48196134, y: 0.51280236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e30abc1d2a60d20800000000000000
+      internalID: 3244459603515162251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 8
+        width: 33
+        height: 33
+      alignment: 9
+      pivot: {x: 0.49106944, y: 0.4823057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70071ac673f07ef60800000000000000
+      internalID: 8063430388550299655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_33
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 7
+        width: 33
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4766337, y: 0.5214509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992e96f117d96f290800000000000000
+      internalID: -7856919390717353319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 7
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4734838, y: 0.529069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5401b991cfbd450800000000000000
+      internalID: 6114758105991497146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_35
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 7
+        width: 30
+        height: 32
+      alignment: 9
+      pivot: {x: 0.49395853, y: 0.51949966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71bf992b66e1f780800000000000000
+      internalID: -8650880061267791494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_36
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 7
+        width: 35
+        height: 32
+      alignment: 9
+      pivot: {x: 0.46937865, y: 0.5577722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fded914dad052ee20800000000000000
+      internalID: 3378351571272851167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 46
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab7ceac045fb454bab69a9c80fda88e
+      internalID: -3752740697002955877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElectroShot_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 46
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88621f0c3d73fa48afb862c561dd01f
+      internalID: 6652853874452196594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 85e9cb15b4114ea4e9f50ba0349d381f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ElectroShot_0: -5371655395617051638
+      ElectroShot_1: 3124902891132448339
+      ElectroShot_10: -8186934583316842879
+      ElectroShot_11: 3403934576833253037
+      ElectroShot_12: -3752740697002955877
+      ElectroShot_13: -3542911877456623412
+      ElectroShot_14: -825721178344454641
+      ElectroShot_15: -1587845353763723842
+      ElectroShot_16: -3803480300780772213
+      ElectroShot_17: -3495831516325449609
+      ElectroShot_18: -9010087726841478565
+      ElectroShot_19: -791442905705510731
+      ElectroShot_2: 2569586858444233940
+      ElectroShot_20: -5663287933539211984
+      ElectroShot_21: -5784865822782028052
+      ElectroShot_22: -7146794878908513283
+      ElectroShot_23: -2209847910896067806
+      ElectroShot_24: -7604490181628619513
+      ElectroShot_25: 9055680637862890197
+      ElectroShot_26: -2170738679387675184
+      ElectroShot_27: 2616827523682463584
+      ElectroShot_28: -391265664830964661
+      ElectroShot_29: 3244459603515162251
+      ElectroShot_3: -6558701626726406225
+      ElectroShot_30: 6652853874452196594
+      ElectroShot_31: 8063430388550299655
+      ElectroShot_32: 6581884686008573536
+      ElectroShot_33: -7856919390717353319
+      ElectroShot_34: 6114758105991497146
+      ElectroShot_35: -8650880061267791494
+      ElectroShot_36: 3378351571272851167
+      ElectroShot_37: 8898057911075135181
+      ElectroShot_38: -5731054118913452771
+      ElectroShot_39: -1501744391576731202
+      ElectroShot_4: 3969731478634686867
+      ElectroShot_5: -1973577620274618583
+      ElectroShot_6: -272846248129856180
+      ElectroShot_7: -31238821265324386
+      ElectroShot_8: -1736695041387193203
+      ElectroShot_9: 6148992754157807829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

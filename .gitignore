@@ -1,0 +1,32 @@
+[Lớp hệ thống]
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+
+[Lớp người dùng]
+UserSettings/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+[Version control]
+.DS_Store
+*.apk
+*.aab
+*.exe
+*.zip
+*.rar
+
+[Unity Cloud]
+*.unitypackage
