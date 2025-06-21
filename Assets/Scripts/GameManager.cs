@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour
     private MultiZoneGenerator2 multiZoneGenerator2;
     private GameObject bossAI2;
 
+    [SerializeField] private GameUI gameUI_BestScore;
     private void Start()
     {
         //thePlayer = FindAnyObjectByType<Player>(); // tìm player trong scene để theo dõi vị trí của player 
@@ -432,7 +433,11 @@ public class GameManager : MonoBehaviour
         skillsUI.SetActive(false); // Deactivate skills UI
 
         HotBarUI.SetActive(false);
+
+        //winMenu.GetComponentInChildren<TextMeshProUGUI>().text = "You Win! Your Score: " + score;
         Time.timeScale = 0f;
+
+        gameUI_BestScore.ShowWinScreen();
     }
 
     public void ActivateRage()

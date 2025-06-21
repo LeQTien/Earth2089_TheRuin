@@ -11,19 +11,23 @@ public class ClearDontDestroyOnLoad : MonoBehaviour
 
     IEnumerator Cleanup()
     {
-        yield return null; // đợi 1 frame để các đối tượng được chuyển qua đúng scene
+        yield return null; // đợi 1 frame để các object được chuyển vào scene
 
         GameObject[] allObjects = FindObjectsOfType<GameObject>();
 
         foreach (GameObject obj in allObjects)
         {
-            // Xoá mọi object đến từ scene DontDestroyOnLoad
             if (obj.scene.name == "DontDestroyOnLoad")
             {
+                // Giữ lại HighScoreManager
+                if (obj.GetComponent<HighScoreManager>() != null)
+                    continue;
+
                 Destroy(obj);
             }
         }
 
         yield return null;
     }
+
 }
