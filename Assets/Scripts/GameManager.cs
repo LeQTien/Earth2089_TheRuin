@@ -435,9 +435,15 @@ public class GameManager : MonoBehaviour
         HotBarUI.SetActive(false);
 
         //winMenu.GetComponentInChildren<TextMeshProUGUI>().text = "You Win! Your Score: " + score;
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
 
         gameUI_BestScore.ShowWinScreen();
+
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (GameObject enemy in enemies)
+        {
+            Destroy(enemy);
+        }
     }
 
     public void ActivateRage()

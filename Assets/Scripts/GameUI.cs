@@ -10,7 +10,7 @@ public class GameUI : MonoBehaviour
 
     [SerializeField] private GameObject saveScorePopup;     // Panel chứa input + nút Save
     [SerializeField] private TMP_InputField playerNameInput;
-    [SerializeField] private GameObject toastText;          // Chữ "Saved!" sẽ hiện khi lưu điểm
+    [SerializeField] private GameObject toastText;
 
     [Header("Main‑menu panels")]
     [SerializeField] private GameObject highScorePanel;
@@ -82,25 +82,23 @@ public class GameUI : MonoBehaviour
         }
 
         StartCoroutine(CloseAfterToast());
+        //CloseSavePopup();
+        //toastText.SetActive(true);
     }
 
     private IEnumerator CloseAfterToast()
     {
-        // 1. Tắt popup ngay
         CloseSavePopup();
-
-        // 2. Hiện toast sau khi đã tắt popup
         if (toastText != null)
+        {
+            Debug.Log("Toast bắt đầu hiển thị");
             toastText.SetActive(true);
-        else
-            Debug.LogWarning("toastText is not assigned.");
 
-        // 3. Đợi 1 giây
-        yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
 
-        // 4. Tắt toast
-        if (toastText != null)
+            Debug.Log("ToastText đã được tắt");
             toastText.SetActive(false);
+        }
     }
 
 

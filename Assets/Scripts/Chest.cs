@@ -71,7 +71,7 @@ public class Chest : MonoBehaviour
 
     void DestroyChest()
     {
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 1f);
     }
     //void OnTriggerEnter2D(Collider2D collision)
     //{
