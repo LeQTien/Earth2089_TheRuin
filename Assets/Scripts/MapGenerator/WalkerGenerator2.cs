@@ -74,6 +74,7 @@ public class MultiZoneGenerator2 : MonoBehaviour
             playerSpawnPoint = spawnWorldPos; // lưu vị trí spawn player
         }
         IsMapGenerated = true; // ✅ Đánh dấu đã tạo xong bản đồ
+        AStarPathfinder.Instance.InitializeGrid(allFloorPositions);
         Debug.Log("✅ Bản đồ đã được tạo xong!");
     }
 

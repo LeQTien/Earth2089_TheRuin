@@ -27,7 +27,7 @@ public class BossAIEnemy : Enemy
         base.Update();
         if (Time.time >= nextSkillTimer)
         {
-            //UseSkill();
+            UseSkill();
         }
         
     }
@@ -201,11 +201,11 @@ public class BossAIEnemy : Enemy
             Vector3 newBossPos;
             if (player.GetPlayerFaceDirection()) // có nhìn sang trái không
             {
-                newBossPos = new Vector3(playerPos.x + 15f, playerPos.y, playerPos.z);
+                newBossPos = new Vector3(playerPos.x + 10f, playerPos.y, playerPos.z);
             }
             else
             {
-                newBossPos = new Vector3(playerPos.x - 15f, playerPos.y, playerPos.z);
+                newBossPos = new Vector3(playerPos.x - 10f, playerPos.y, playerPos.z);
             }
             // Gán vị trí mới cho boss
             transform.position = newBossPos;

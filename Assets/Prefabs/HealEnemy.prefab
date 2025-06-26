@@ -126,7 +126,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.06468767, y: 0.5010659}
+  m_Offset: {x: 0.06468767, y: 0.14875215}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.2}
@@ -136,7 +136,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.78996, y: 1.2237478}
+  m_Size: {x: 0.78996, y: 0.51912034}
   m_EdgeRadius: 0
 --- !u!95 &7082190103175126284
 Animator:
@@ -178,6 +178,13 @@ MonoBehaviour:
   HPBar: {fileID: 5123522195936170825}
   enterDamage: 10
   stayDamage: 5
+  baseStunDuration: 0.2
+  avoidTime: 4
+  obstacleDetectDistance: 3
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  maxAvoidAttempts: 30
   healPickup: {fileID: 5324088606807666767, guid: 37cc49ee30990694788a76ceb15f74a4, type: 3}
 --- !u!50 &300355259504020528
 Rigidbody2D:

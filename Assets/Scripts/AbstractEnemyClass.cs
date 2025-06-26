@@ -10,7 +10,7 @@ using System.Linq;
 
 public abstract class Enemy : MonoBehaviour
 {
-    [SerializeField] protected float enemyMoveSpeed = 5f; // tốc độ di chuyển
+    [SerializeField] public float enemyMoveSpeed = 5f; // tốc độ di chuyển
 
     protected Player player; // vị trí của player
     protected GameManager gameManager;
@@ -61,6 +61,8 @@ public abstract class Enemy : MonoBehaviour
 
     private readonly float selfCastOffset = 0.1f;   // đẩy raycast khỏi collider enemy
 
+    private float pathUpdateRate = 0.5f; // Chỉ tìm đường mới mỗi 0.5s
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -75,6 +77,7 @@ public abstract class Enemy : MonoBehaviour
         UpdateHPBar(); // khi game bắt đầu, cập nhật thanh máu
         UpdateRageModeStats();
 
+        //EventManager.Instance.OnPlayerMoved += OnPlayerMoved;
         //groundTilemap = MultiZoneGenerator.Instance.groundTilemap;
         //StartCoroutine(UpdatePathRoutine());
     }
@@ -86,6 +89,15 @@ public abstract class Enemy : MonoBehaviour
     //        yield return new WaitForSeconds(1f); // cập nhật đường đi mỗi giây
     //    }
     //}
+    private void OnPlayerMoved(Vector2 newPos)
+    {
+        var newPath = AStarPathfinder.Instance.FindPath(transform.position, newPos);
+        if (newPath != null)
+        {
+            currentPath = newPath;
+            currentPathIndex = 0;
+        }
+    }
 
     protected virtual void Update()
     {
@@ -121,6 +133,7 @@ public abstract class Enemy : MonoBehaviour
 
             //FlipEnemy(direction);
             MoveToPlayer();
+            //MoveAlongPath();
         }
         
 
@@ -284,126 +297,216 @@ public abstract class Enemy : MonoBehaviour
     //    }
     //}
     // ------------------ MOVE LOOP ------------------
+    //protected void MoveToPlayer()
+    //{
+    //    if (player == null) return;
+
+    //    Vector2 toPlayerDir = (player.transform.position - transform.position).normalized;
+
+    //    // -------------------- KHÔNG né --------------------
+    //    if (!isAvoiding)
+    //    {
+    //        currentDirection = toPlayerDir;
+
+    //        if (IsObstacleAhead(currentDirection))
+    //        {
+    //            TryPickNewDirection();  // sẽ bật isAvoiding = true
+    //        }
+    //    }
+    //    // -------------------- ĐANG né --------------------
+    //    else
+    //    {
+    //        /* ➊ Kiểm tra liên tục đường thẳng tới player */
+    //        if (!IsObstacleAhead(toPlayerDir))
+    //        {
+    //            // Đã thông → quay lại truy đuổi ngay
+    //            isAvoiding = false;
+    //            currentDirection = toPlayerDir;
+    //        }
+    //        else
+    //        {
+    //            /* ➋ Vẫn bị chặn → tiếp tục logic né cũ */
+    //            avoidTimer -= Time.deltaTime;
+
+    //            if (avoidTimer <= 0f)
+    //            {
+    //                // Nếu hướng hiện tại vẫn bị chặn, chọn hướng mới
+    //                if (IsObstacleAhead(currentDirection))
+    //                {
+    //                    TryPickNewDirection();
+    //                }
+    //                else
+    //                {
+    //                    // Hết né, nhưng còn chặn? (hiếm) → vẫn cứ thoát
+    //                    isAvoiding = false;
+    //                    currentDirection = toPlayerDir;
+    //                }
+    //            }
+    //        }
+    //    }
+
+    //    // Di chuyển
+    //    rb.linearVelocity = currentDirection * enemyMoveSpeed;
+    //    FlipEnemy();
+    //}
+
+
+    //// ------------------ HỖ TRỢ ------------------
+    //private bool IsObstacleAhead(Vector2 dir)
+    //{
+    //    Vector2 origin = (Vector2)transform.position + dir * selfCastOffset;
+    //    RaycastHit2D hit = Physics2D.CircleCast(origin, 1.5f, dir, obstacleDetectDistance, obstacleLayer);
+    //    return hit.collider != null;
+
+    //}
+
+    //private void TryPickNewDirection()
+    //{
+    //    Vector2 toPlayer = (player.transform.position - transform.position).normalized;
+
+    //    // Danh sách góc lệch cố định
+    //    List<int> angles = new List<int> { 45, -45, 90, -90, 135, -135, 180, -180 };
+
+    //    // Xáo 1 lần duy nhất
+    //    for (int i = angles.Count - 1; i > 0; --i)
+    //    {
+    //        int j = UnityEngine.Random.Range(0, i + 1);
+    //        (angles[i], angles[j]) = (angles[j], angles[i]);
+    //    }
+
+    //    int attempts = 0;
+    //    bool found = false;
+
+    //    // Lặp lại quá trình thử cho đến khi tìm được hướng hợp lệ hoặc hết số lần cho phép
+    //    while (!found && attempts < maxAvoidAttempts)
+    //    {
+    //        foreach (int angle in angles)
+    //        {
+    //            Vector2 dir = Quaternion.Euler(0, 0, angle) * currentDirection;
+
+    //            // Chỉ chọn các hướng phía trước (dot ≥ 0)
+    //            if (Vector2.Dot(dir.normalized, toPlayer) < 0f) continue;
+
+    //            if (!IsObstacleAhead(dir))
+    //            {
+    //                currentDirection = dir.normalized;
+    //                found = true;
+    //                break;
+    //            }
+    //        }
+
+    //        attempts++;
+    //    }
+
+    //    // Nếu không tìm được hướng tránh hợp lệ, fallback: cứ lao tới player
+    //    if (!found)
+    //    {
+    //        currentDirection = toPlayer;
+    //    }
+
+    //    isAvoiding = true;
+    //    avoidTimer = avoidTime;
+    //}
+    //---
+    private float pathUpdateInterval = 0.5f;
+    private float pathUpdateTimer;
+    private List<Vector2> currentPath;
+    private int currentPathIndex;
+
     protected void MoveToPlayer()
     {
-        if (player == null) return;
+        if (player == null)
+            return;
 
-        Vector2 toPlayerDir = (player.transform.position - transform.position).normalized;
+        pathUpdateTimer -= Time.deltaTime;
 
-        // -------------------- KHÔNG né --------------------
-        if (!isAvoiding)
+        // Nếu không có vật cản trực tiếp, di chuyển thẳng
+        if (!Physics2D.Linecast(transform.position, player.transform.position, LayerMask.GetMask("Border")))
         {
-            currentDirection = toPlayerDir;
+            // Xóa path cũ vì không cần nữa
+            currentPath = null;
+            currentPathIndex = 0;
 
-            if (IsObstacleAhead(currentDirection))
-            {
-                TryPickNewDirection();  // sẽ bật isAvoiding = true
-            }
-        }
-        // -------------------- ĐANG né --------------------
-        else
-        {
-            /* ➊ Kiểm tra liên tục đường thẳng tới player */
-            if (!IsObstacleAhead(toPlayerDir))
-            {
-                // Đã thông → quay lại truy đuổi ngay
-                isAvoiding = false;
-                currentDirection = toPlayerDir;
-            }
-            else
-            {
-                /* ➋ Vẫn bị chặn → tiếp tục logic né cũ */
-                avoidTimer -= Time.deltaTime;
+            // Di chuyển thẳng
+            Vector2 direction = (player.transform.position - transform.position).normalized;
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyMoveSpeed * Time.deltaTime);
 
-                if (avoidTimer <= 0f)
-                {
-                    // Nếu hướng hiện tại vẫn bị chặn, chọn hướng mới
-                    if (IsObstacleAhead(currentDirection))
-                    {
-                        TryPickNewDirection();
-                    }
-                    else
-                    {
-                        // Hết né, nhưng còn chặn? (hiếm) → vẫn cứ thoát
-                        isAvoiding = false;
-                        currentDirection = toPlayerDir;
-                    }
-                }
-            }
+            // Flip enemy nếu cần
+            // FlipEnemy(direction.x);
+            return;
         }
 
-        // Di chuyển
-        rb.linearVelocity = currentDirection * enemyMoveSpeed;
-        FlipEnemy();
+        // Nếu có vật cản, dùng A* pathfinding
+        if (AStarPathfinder.Instance == null)
+            return;
+
+        if (pathUpdateTimer <= 0f)
+        {
+            Vector2 start = transform.position;
+            Vector2 goal = player.transform.position;
+
+            var newPath = AStarPathfinder.Instance.FindPath(start, goal, 1);
+
+            if (newPath != null && newPath.Count > 0)
+            {
+                Vector2 currentTarget = currentPath != null && currentPathIndex < currentPath.Count
+                    ? currentPath[currentPathIndex]
+                    : (Vector2)transform.position;
+
+                currentPath = newPath;
+
+                int closestIndex = FindClosestPathIndex(newPath, transform.position);
+
+                if (Vector2.Distance(transform.position, currentTarget) < 0.1f)
+                    currentPathIndex = closestIndex;
+            }
+
+            pathUpdateTimer = pathUpdateInterval;
+        }
+
+        if (currentPath == null || currentPathIndex >= currentPath.Count)
+            return;
+
+        Vector2 targetPos = currentPath[currentPathIndex];
+        Vector2 moveDir = (targetPos - (Vector2)transform.position).normalized;
+
+        transform.position = Vector2.MoveTowards(transform.position, targetPos, enemyMoveSpeed * Time.deltaTime);
+
+        if (Vector2.Distance(transform.position, targetPos) < 0.05f)
+            currentPathIndex++;
     }
 
-
-    // ------------------ HỖ TRỢ ------------------
-    private bool IsObstacleAhead(Vector2 dir)
+    private int FindClosestPathIndex(List<Vector2> path, Vector2 currentPos)
     {
-        Vector2 origin = (Vector2)transform.position + dir * selfCastOffset;
-        RaycastHit2D hit = Physics2D.CircleCast(origin, 1.5f, dir, obstacleDetectDistance, obstacleLayer);
-        return hit.collider != null;
+        int closestIndex = 0;
+        float closestDist = float.MaxValue;
 
-    }
-
-    private void TryPickNewDirection()
-    {
-        Vector2 toPlayer = (player.transform.position - transform.position).normalized;
-
-        // Danh sách góc lệch cố định
-        List<int> angles = new List<int> { 45, -45, 90, -90, 135, -135, 180, -180 };
-
-        // Xáo 1 lần duy nhất
-        for (int i = angles.Count - 1; i > 0; --i)
+        for (int i = 0; i < path.Count; i++)
         {
-            int j = UnityEngine.Random.Range(0, i + 1);
-            (angles[i], angles[j]) = (angles[j], angles[i]);
-        }
-
-        int attempts = 0;
-        bool found = false;
-
-        // Lặp lại quá trình thử cho đến khi tìm được hướng hợp lệ hoặc hết số lần cho phép
-        while (!found && attempts < maxAvoidAttempts)
-        {
-            foreach (int angle in angles)
+            float dist = Vector2.Distance(path[i], currentPos);
+            if (dist < closestDist)
             {
-                Vector2 dir = Quaternion.Euler(0, 0, angle) * currentDirection;
-
-                // Chỉ chọn các hướng phía trước (dot ≥ 0)
-                if (Vector2.Dot(dir.normalized, toPlayer) < 0f) continue;
-
-                if (!IsObstacleAhead(dir))
-                {
-                    currentDirection = dir.normalized;
-                    found = true;
-                    break;
-                }
+                closestDist = dist;
+                closestIndex = i;
             }
-
-            attempts++;
         }
 
-        // Nếu không tìm được hướng tránh hợp lệ, fallback: cứ lao tới player
-        if (!found)
-        {
-            currentDirection = toPlayer;
-        }
-
-        isAvoiding = true;
-        avoidTimer = avoidTime;
+        return closestIndex;
     }
-
+    //---
 
     private void FlipEnemy()
     {
-        if (currentDirection.x != 0)
-        {
-            Vector3 localScale = transform.localScale;
-            localScale.x = Mathf.Sign(currentDirection.x) * Mathf.Abs(localScale.x);
-            transform.localScale = localScale;
-        }
+        //if (currentDirection.x != 0)
+        //{
+        //    Vector3 localScale = transform.localScale;
+        //    localScale.x = Mathf.Sign(currentDirection.x) * Mathf.Abs(localScale.x);
+        //    transform.localScale = localScale;
+        //}
+        if (currentDirection.x > 0.05f)
+            transform.localScale = new Vector3(1, 1, 1); // hướng phải
+        else if (currentDirection.x < -0.05f)
+            transform.localScale = new Vector3(-1, 1, 1); // hướng trái
     }
 
 
