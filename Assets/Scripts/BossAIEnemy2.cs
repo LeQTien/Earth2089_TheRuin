@@ -27,7 +27,7 @@ public class BossAIEnemy2 : Enemy
         base.Update();
         if (Time.time >= nextSkillTimer)
         {
-            //UseSkill();
+            UseSkill();
         }
         
     }

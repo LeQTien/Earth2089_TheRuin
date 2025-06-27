@@ -10,7 +10,7 @@ using System.Linq;
 
 public abstract class Enemy : MonoBehaviour
 {
-    [SerializeField] public float enemyMoveSpeed = 5f; // tốc độ di chuyển
+    [SerializeField] public float enemyMoveSpeed = 8f; // tốc độ di chuyển
 
     protected Player player; // vị trí của player
     protected GameManager gameManager;
@@ -89,15 +89,15 @@ public abstract class Enemy : MonoBehaviour
     //        yield return new WaitForSeconds(1f); // cập nhật đường đi mỗi giây
     //    }
     //}
-    private void OnPlayerMoved(Vector2 newPos)
-    {
-        var newPath = AStarPathfinder.Instance.FindPath(transform.position, newPos);
-        if (newPath != null)
-        {
-            currentPath = newPath;
-            currentPathIndex = 0;
-        }
-    }
+    //private void OnPlayerMoved(Vector2 newPos)
+    //{
+    //    var newPath = AStarPathfinder.Instance.FindPath(transform.position, newPos);
+    //    if (newPath != null)
+    //    {
+    //        currentPath = newPath;
+    //        currentPathIndex = 0;
+    //    }
+    //}
 
     protected virtual void Update()
     {
@@ -134,6 +134,14 @@ public abstract class Enemy : MonoBehaviour
             //FlipEnemy(direction);
             MoveToPlayer();
             //MoveAlongPath();
+            //timer += Time.deltaTime;
+            //if (timer >= updateInterval)
+            //{
+            //    timer = 0f;
+            //    UpdatePath();
+            //}
+
+            //Move();
         }
         
 
@@ -408,39 +416,89 @@ public abstract class Enemy : MonoBehaviour
     //    avoidTimer = avoidTime;
     //}
     //---
-    private float pathUpdateInterval = 0.5f;
+    private float pathUpdateInterval = 0.8f;
     private float pathUpdateTimer;
     private List<Vector2> currentPath;
     private int currentPathIndex;
 
+    private bool recentlyUnblocked = false;
+    private float continuePathTimer = 0f;
+    private float continuePathDuration = 0.2f; // thời gian duy trì đi theo path sau khi vừa hết bị chắn
+    
+    private Vector2Int? lastNodePos = null;
+    private float stuckTimer = 0f;
+    private float stuckTimeout = 0.5f; // nếu đứng cùng node quá 1 giây thì reset path
+
+    private float chaseRange = 100f; // đơn vị: Unity units (world units)
+    private bool isChasingPlayer = false;
+    
     protected void MoveToPlayer()
     {
-        if (player == null)
+        if (player == null || AStarPathfinder.Instance == null)
             return;
 
         pathUpdateTimer -= Time.deltaTime;
+        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
-        // Nếu không có vật cản trực tiếp, di chuyển thẳng
-        if (!Physics2D.Linecast(transform.position, player.transform.position, LayerMask.GetMask("Border")))
+        // Nếu player quá xa, ngừng truy đuổi
+        if (distanceToPlayer > chaseRange)
         {
-            // Xóa path cũ vì không cần nữa
-            currentPath = null;
-            currentPathIndex = 0;
-
-            // Di chuyển thẳng
-            Vector2 direction = (player.transform.position - transform.position).normalized;
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyMoveSpeed * Time.deltaTime);
-
-            // Flip enemy nếu cần
-            // FlipEnemy(direction.x);
+            if (isChasingPlayer)
+            {
+                Debug.Log("Player đi quá xa, enemy ngừng truy đuổi.");
+                isChasingPlayer = false;
+                currentPath = null;
+                currentPathIndex = 0;
+                // TODO: Có thể gọi hàm Patrol(), ReturnToStart() hoặc Idle()
+            }
             return;
         }
+        else
+        {
+            isChasingPlayer = true;
+        }
+        // Kiểm tra có còn bị chắn không
+        bool isBlocked = Physics2D.Linecast(transform.position, player.transform.position, LayerMask.GetMask("Border"));
 
-        // Nếu có vật cản, dùng A* pathfinding
+        if (!isBlocked)
+        {
+            // Nếu vừa mới hết bị chắn
+            if (!recentlyUnblocked && currentPath != null && currentPathIndex < currentPath.Count)
+            {
+                recentlyUnblocked = true;
+                continuePathTimer = continuePathDuration;
+            }
+
+            // Nếu đang trong thời gian tiếp tục theo path
+            if (recentlyUnblocked)
+            {
+                continuePathTimer -= Time.deltaTime;
+                if (continuePathTimer <= 0f)
+                    recentlyUnblocked = false; // cho phép đi thẳng sau khi delay
+            }
+
+            // Nếu không còn delay nữa thì đi thẳng
+            if (!recentlyUnblocked)
+            {
+                currentPath = null;
+                currentPathIndex = 0;
+
+                Vector2 direction = (player.transform.position - transform.position).normalized;
+                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyMoveSpeed * Time.deltaTime);
+                return;
+            }
+        }
+        else
+        {
+            // Nếu đang bị chắn, reset trạng thái đi thẳng
+            recentlyUnblocked = false;
+        }
+
+        // Dùng A* nếu cần cập nhật path
         if (AStarPathfinder.Instance == null)
             return;
 
-        if (pathUpdateTimer <= 0f)
+        if (pathUpdateTimer <= 0f || currentPath == null || currentPathIndex >= currentPath.Count)
         {
             Vector2 start = transform.position;
             Vector2 goal = player.transform.position;
@@ -449,24 +507,25 @@ public abstract class Enemy : MonoBehaviour
 
             if (newPath != null && newPath.Count > 0)
             {
-                Vector2 currentTarget = currentPath != null && currentPathIndex < currentPath.Count
-                    ? currentPath[currentPathIndex]
-                    : (Vector2)transform.position;
-
+                //currentPath = newPath;
+                //currentPathIndex = FindClosestPathIndex(newPath, transform.position);
                 currentPath = newPath;
 
-                int closestIndex = FindClosestPathIndex(newPath, transform.position);
-
-                if (Vector2.Distance(transform.position, currentTarget) < 0.1f)
-                    currentPathIndex = closestIndex;
+                int newIndex = FindClosestPathIndex(newPath, transform.position);
+                if (newIndex > currentPathIndex)
+                {
+                    currentPathIndex = newIndex;
+                }
             }
 
             pathUpdateTimer = pathUpdateInterval;
         }
 
+        // Nếu không có đường thì dừng
         if (currentPath == null || currentPathIndex >= currentPath.Count)
             return;
 
+        // Di chuyển theo path
         Vector2 targetPos = currentPath[currentPathIndex];
         Vector2 moveDir = (targetPos - (Vector2)transform.position).normalized;
 
@@ -474,7 +533,58 @@ public abstract class Enemy : MonoBehaviour
 
         if (Vector2.Distance(transform.position, targetPos) < 0.05f)
             currentPathIndex++;
+
+        // === Kiểm tra bị kẹt quá lâu ở cùng một node ===
+        Vector2Int currentNodePos = Vector2Int.RoundToInt(transform.position);
+
+        if (lastNodePos.HasValue && lastNodePos.Value == currentNodePos)
+        {
+            stuckTimer += Time.deltaTime;
+
+            if (stuckTimer >= stuckTimeout)
+            {
+                Debug.LogWarning("Enemy bị kẹt, thử hướng fallback...");
+
+                stuckTimer = 0f;
+                currentPath = null;
+                currentPathIndex = 0;
+
+                // Tìm hướng fallback còn đi được
+                foreach (Vector2Int dir in GetFallbackDirections())
+                {
+                    Vector2Int fallbackPos = currentNodePos + dir;
+                    if (AStarPathfinder.Instance.IsWalkable(fallbackPos))
+                    {
+                        Vector2 fallbackWorld = (Vector2)fallbackPos;
+                        transform.position = Vector2.MoveTowards(transform.position, fallbackWorld, enemyMoveSpeed * Time.deltaTime);
+                        break;
+                    }
+                }
+
+                return; // Không tìm path ngay lập tức, tránh lag
+            }
+        }
+        else
+        {
+            stuckTimer = 0f;
+            lastNodePos = currentNodePos;
+        }
     }
+    private List<Vector2Int> GetFallbackDirections()
+    {
+        return new List<Vector2Int>
+    {
+        Vector2Int.down,
+        Vector2Int.left,
+        Vector2Int.right,
+        Vector2Int.up,
+        new Vector2Int(-1, -1),
+        new Vector2Int(1, -1),
+        new Vector2Int(-1, 1),
+        new Vector2Int(1, 1),
+    };
+    }
+
 
     private int FindClosestPathIndex(List<Vector2> path, Vector2 currentPos)
     {
@@ -494,6 +604,34 @@ public abstract class Enemy : MonoBehaviour
         return closestIndex;
     }
     //---
+    //public float updateInterval = 0.5f;
+    //private float timer;
+    //private List<Node> currentPath;
+    //private int pathIndex;
+
+    //void UpdatePath()
+    //{
+    //    var start = AStarManager.Instance.FindNearestNode(transform.position);
+    //    var end = AStarManager.Instance.FindNearestNode(player.transform.position);
+
+    //    if (start != null && end != null)
+    //    {
+    //        currentPath = AStarManager.Instance.GeneratePath(start, end);
+    //        pathIndex = 0;
+    //    }
+    //}
+
+    //void Move()
+    //{
+    //    if (currentPath == null || pathIndex >= currentPath.Count) return;
+
+    //    Vector2 targetPos = currentPath[pathIndex].gridPos + Vector2.one * 0.5f;
+    //    Vector2 newPos = Vector2.MoveTowards(transform.position, targetPos, Time.deltaTime * 3f);
+    //    rb.MovePosition(newPos);
+
+    //    if (Vector2.Distance(transform.position, targetPos) < 0.1f)
+    //        pathIndex++;
+    //}
 
     private void FlipEnemy()
     {

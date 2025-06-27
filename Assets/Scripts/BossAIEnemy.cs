@@ -148,13 +148,13 @@ public class BossAIEnemy : Enemy
                 NormalShooting();
                 break;
             case 4:
-                InCircleShooting();
+                NormalShooting();
                 break;
             case 5:
-                InCircleShooting();
+                NormalShooting();
                 break;
             case 6:
-                InCircleShooting();
+                NormalShooting();
                 break;
             case 7:
                 BossHealing(hpValue);
@@ -178,10 +178,10 @@ public class BossAIEnemy : Enemy
                 Teleporting();
                 break;
             case 14:
-                InCircleShooting();
+                NormalShooting();
                 break;
             case 15:
-                InCircleShooting();
+                NormalShooting();
                 break;
         }
     }

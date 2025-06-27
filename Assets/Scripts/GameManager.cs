@@ -2,10 +2,12 @@
 using System.Collections;
 using UnityEngine.UI;
 using Unity.Cinemachine;
-using UnityEngine.SocialPlatforms.Impl;
 using TMPro;
-using UnityEditor.Rendering.LookDev;
 using System;
+using UnityEngine.SocialPlatforms.Impl;
+#if UNITY_EDITOR
+using UnityEditor.Rendering.LookDev;
+#endif
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -113,7 +115,8 @@ public class GameManager : MonoBehaviour
 
         MainMenu();
         //rageEffectSpwanPoint = thePlayer.transform.position;
-        audioManager.StopAudioGame();
+        //audioManager.StopAudioGame();
+        audioManager.PlayDefaultAudio();
     }
 
     private void Update()

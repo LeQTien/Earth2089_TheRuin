@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class AStarPathfinder : MonoBehaviour
@@ -9,7 +10,7 @@ public class AStarPathfinder : MonoBehaviour
     private Dictionary<Vector2Int, Node> grid = new();
 
     private Dictionary<Vector2Int, HashSet<Vector2Int>> regionMap = new();
-    private int regionSize = 16;
+    private int regionSize = 32;
 
     private class Node
     {
@@ -45,7 +46,7 @@ public class AStarPathfinder : MonoBehaviour
 
             regionMap[region].Add(pos);
 
-            grid[pos] = new Node(pos);
+            //grid[pos] = new Node(pos);
         }
     }
     private Vector2Int GetRegionForPosition(Vector2Int pos)
@@ -162,8 +163,12 @@ public class AStarPathfinder : MonoBehaviour
     {
         return 10 * (Mathf.Abs(a.x - b.x) + Mathf.Abs(a.y - b.y)); // Manhattan * 10
     }
-
-    private List<Vector2Int> GetDirections()
+    public bool IsWalkable(Vector2Int pos)
+    {
+        return walkablePositions != null && walkablePositions.Contains(pos) &&
+               !Physics2D.OverlapCircle((Vector2)pos, 0.1f, LayerMask.GetMask("Border"));
+    }
+    public List<Vector2Int> GetDirections()
     {
         return new List<Vector2Int>
         {
@@ -207,19 +212,25 @@ public class AStarPathfinder : MonoBehaviour
     // ⚠️ Cấu trúc hàng đợi ưu tiên đơn giản (dễ hiểu, không tối ưu cho map lớn)
     private class PriorityQueue<T>
     {
-        private List<(T item, int priority)> elements = new();
-        public int Count => elements.Count;
+        private readonly SortedDictionary<int, Queue<T>> elements = new();
+
+        public int Count { get; private set; }
 
         public void Enqueue(T item, int priority)
         {
-            elements.Add((item, priority));
-            elements.Sort((a, b) => a.priority.CompareTo(b.priority)); // Có thể thay bằng heap
+            if (!elements.ContainsKey(priority))
+                elements[priority] = new Queue<T>();
+
+            elements[priority].Enqueue(item);
+            Count++;
         }
 
         public T Dequeue()
         {
-            var item = elements[0].item;
-            elements.RemoveAt(0);
+            var pair = elements.First();
+            var item = pair.Value.Dequeue();
+            if (pair.Value.Count == 0) elements.Remove(pair.Key);
+            Count--;
             return item;
         }
     }
