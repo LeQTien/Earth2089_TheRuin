@@ -35,6 +35,7 @@ public class BossAIEnemy : Enemy
     protected override void Die()
     {
         base.Die();
+        //portalPrefab.SetActive(true);
         enemySpawner.SetActive(false);
         if (usbPrefab != null)
         {

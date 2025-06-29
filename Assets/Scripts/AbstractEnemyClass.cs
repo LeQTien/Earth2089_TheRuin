@@ -115,6 +115,7 @@ public abstract class Enemy : MonoBehaviour
         //        currentPathIndex++;
         //    }
         //}
+        //if (!GameManager.Instance.gameStarted) return;
         if (!isKnockedBack && !isStunned)
         {
             //if (player == null) return;
@@ -143,8 +144,6 @@ public abstract class Enemy : MonoBehaviour
 
             //Move();
         }
-        
-
         UpdateRageModeStats();
         HandleKnockbackWithStun();
     }

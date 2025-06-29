@@ -7,10 +7,28 @@ public class PortalToTheNextScene : MonoBehaviour
     private bool isActivated = false;
     public string sceneToLoad = "SceneLevel2";
     private AbstractMeleeWeapon meleeWeapon;
-    [SerializeField] private GameObject LoadingScreen;
+    [SerializeField] public GameObject LoadingScreen;
 
     private MultiZoneGenerator2 multiZoneGenerator2;
 
+    private void Start()
+    {
+        //gameObject.SetActive(false);
+    }
+    private void Update()
+    {
+        //EnemySpawner enemySpawner = FindObjectOfType<EnemySpawner>();
+        //if (enemySpawner != null)
+        //{
+        //    // Nếu không còn kẻ địch nào, kích hoạt cổng
+        //    gameObject.SetActive(true);
+        //}
+        //else
+        //{
+        //    // Nếu còn kẻ địch, ẩn cổng
+        //    gameObject.SetActive(false);
+        //}
+    }
     // Gọi hàm này từ vũ khí khi chém trúng
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -91,6 +91,16 @@ public class GameManager : MonoBehaviour
     private GameObject bossAI2;
 
     [SerializeField] private GameUI gameUI_BestScore;
+
+    public static GameManager Instance;
+    public bool gameStarted = false;
+
+    void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+    }
+
     private void Start()
     {
         //thePlayer = FindAnyObjectByType<Player>(); // tìm player trong scene để theo dõi vị trí của player 

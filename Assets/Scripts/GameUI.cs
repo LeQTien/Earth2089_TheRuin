@@ -58,8 +58,16 @@ public class GameUI : MonoBehaviour
 
     public void SaveHighScore()
     {
-        string player = string.IsNullOrWhiteSpace(playerNameInput?.text)
-                        ? "Player" : playerNameInput.text.Trim();
+        //string player = string.IsNullOrWhiteSpace(playerNameInput?.text)
+        //                ? "Player" : playerNameInput.text.Trim();
+        // ❌ Nếu chưa nhập tên, không cho lưu
+        string player = playerNameInput?.text.Trim();
+
+        if (string.IsNullOrWhiteSpace(player))
+        {
+            Debug.LogWarning("Tên người chơi không được để trống!");
+            return;
+        }
 
         int score = 0;
 

@@ -46,7 +46,8 @@ public class EnemySpawner : MonoBehaviour
     {
         // Chờ cho đến khi map được đánh dấu là đã sẵn sàng
         //yield return new WaitUntil(() => isMapGenerating);
-        StartCoroutine(SpawnEnemies());
+        //StartCoroutine(SpawnEnemies());
+        //Spawn();
     }
 
     //private IEnumerator SpawnEnemies()
@@ -75,7 +76,12 @@ public class EnemySpawner : MonoBehaviour
     //        }
     //    }
     //}
-    private IEnumerator SpawnEnemies()
+    //private void Spawn()
+    //{
+    //    PlayerDialogueStarter playerDialogueStarter = FindObjectOfType<PlayerDialogueStarter>();
+    //    if (playerDialogueStarter.isIntroFinished) StartCoroutine(SpawnEnemies());
+    //}
+    public IEnumerator SpawnEnemies()
     {
         while (true)
         {

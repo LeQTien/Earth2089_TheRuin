@@ -148,6 +148,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (!GameManager.Instance.gameStarted) return;
         // gọi hàm di chuyển player
         if (!isDashing)
         {
